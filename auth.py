@@ -1,5 +1,3 @@
-"""Cookie sessions: an opaque random token in an httpOnly cookie; only its SHA-256 lives in Mongo."""
-
 import asyncio
 import hashlib
 import secrets
